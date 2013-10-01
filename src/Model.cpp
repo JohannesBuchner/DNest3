@@ -24,6 +24,8 @@ using namespace std;
 namespace DNest3
 {
 
+bool Model::enable_slice = false;
+
 string Model::description() const
 {
 	return string("");

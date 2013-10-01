@@ -29,6 +29,9 @@ namespace DNest3
 /* Abstract base class for models */
 class Model
 {
+	public:
+		static bool enable_slice;
+
 	protected:
 		// Parameters go here
 
